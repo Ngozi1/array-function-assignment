@@ -95,3 +95,11 @@ console.log("The maximum value is" + " " + maxFromArray(numbers) );
 
 // QUESTION 5
 
+function valTimesIndex(num){
+    return num.map((val,index) => val * index);
+}
+
+let array = [1,3,9];
+let multipliedResult = valTimesIndex(array);
+
+console.log(multipliedResult)
