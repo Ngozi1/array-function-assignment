@@ -82,7 +82,7 @@ let fruit = ['apple', 'mango', 'banana'];
 
 function maxFromArray(numbers) {
     let max = numbers[0];                      
-    for (let i = 1; i < numbers.length; i++) {
+    for (let i = 0; i < numbers.length; i++) {
         if (numbers[i] > max) {                
             max = numbers[i];
         }
@@ -91,7 +91,7 @@ function maxFromArray(numbers) {
 }
 
 const numbers = [19, 30, 1000, 5, 1, 67];
-console.log("The maximum value is" + " " + maxFromArray(numbers) );
+ console.log("The maximum value is" + " " + maxFromArray(numbers) )
 
 // QUESTION 5
 
